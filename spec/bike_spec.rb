@@ -1,3 +1,3 @@
-require 'practice'
+require 'bike'
 describe "Bike" do
 end
