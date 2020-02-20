@@ -6,8 +6,8 @@ class DockingStation
     end
 
     def release_bike
-        fail "There are no bikes available" unless @bike
-        @bike
+      fail "There are no bikes available" unless @bike
+      @bike
     end
 end
 

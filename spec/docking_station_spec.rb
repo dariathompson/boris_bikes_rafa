@@ -14,6 +14,6 @@ describe DockingStation do
   end
 
   it "raises an error" do
-    expect { raise StandardError }.to raise_error
+    expect { subject.release_bike }.to raise_error "There are no bikes available"
   end
 end
